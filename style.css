@@ -1,4 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+.main-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid aquamarine;
+
+}
+.btn-primary{
+    background: #FF5400;
+    padding: 15px 25px ;
+    border: 0;
+    border-radius: 7px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-right a{
+    text-decoration: none;
+    margin-left: 45px;
+}
+.banner{
+    height: 500px;
+    background-image: linear-gradient(180deg, #060607 0%, rgba(19, 4, 47, 0) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-top{
+    margin-top: 150px;
+    text-align: center;
+}
+.banner-heading{
+    color: #FFF;
+    margin-bottom: 15px;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-des{
+    color: #FFF;
+    padding: 0 250px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.banner-bottom{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 25px 35px;
+    background: rgba(134, 134, 134, 0.494);
+    /* opacity: 0.5; */
+    border-radius: 7px;
+}
+.banner-bottom > input{
+    border: 0;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: red;
+    z-index: 10;
+}
+.banner-bottom > input > .banner-btn{
+    background-color: #FF5400; !important
+}
+
+
+
+
+
+
+
+/* style for Mobile devices */
+@media screen and (max-width: 600px) {
+    .banner-top{
+        margin-top: 80px;
+    }
+    .banner-heading{
+        margin-bottom: 15px;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .banner-des{
+        color: #FFF;
+        padding: 0 30px;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .banner-bottom{
+        margin: 0px auto;
+        max-width: 90%;
+        padding: 10px 20px;
+        align-items: center;
+    }
+    .banner-bottom > input{
+        display: block;
+        margin: 15px;
+        /* margin-top: 40px; */
+        /* max-width: 100%; */
+        /* padding: 0 20px; */
+    }
+}
+
+
+
