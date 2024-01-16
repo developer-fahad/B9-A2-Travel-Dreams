@@ -236,37 +236,48 @@ body{
     gap: 80px;
     justify-content: space-between;
 }
-.news-left{
-    display: block;
+.newsletter-content{
+    width: 50%;
+    box-sizing: border-box;
 }
-.subscribe{
-    width: 400px;
+.newsletter-content .content-heading{
+    margin-top: 0px;
 }
-.subscribe > input{
-    display: block;
-    width: 300px;
-    padding: 20px;
-    margin: 15px;
-    margin-left: 0;
+.newsletter-content hr{
+    margin: 30px 0;
+}
+.newsletter-content input{
+    width: 100%;
+    margin-top: 30px;
+    height: 45px;
+    outline: none;
     border: 0;
-    outline: 0;
-    border-radius: 8px;
-    background: #a9a9a937;
+    background: rgba(223, 223, 223, 0.668);
+    border-radius: 21px;
+}
+.newsletter-content .newsletter-btn{
+    width: 100%;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 21px;
+    height: 45px;
+    background: rgb(255, 85, 23);
+    color: #ffffff;
 }
 .input-style{
     
 }
-.news-btn{
-    width: 100%;
-    background: #880c0c;
-    color: #ffffff;
-    padding: 0px 20px;
-}
-.news-right{
+/* .input-items{
+    display: block;
+} */
+.newsletter-img{
+    width: 50%;
     position: relative;
 }
-.news-right > img{
+.newsletter-img img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .save{
     box-sizing: border-box;
@@ -359,7 +370,7 @@ body{
     }
     .banner-bottom > input{
         display: block;
-        margin: 15px;
+        margin: 5px;
         /* margin-top: 40px; */
         /* max-width: 100%; */
         /* padding: 0 20px; */
@@ -440,16 +451,43 @@ body{
     }
     .newsletter{
         flex-direction: column;
+        gap: 25px;
+    }
+    .newsletter-content{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .newsletter-content input{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .newsletter-content .newsletter-btn{
+        width: 100%;
+
+    }
+    .newsletter-img{
+        width: 100%;
+        position: relative;
+        height: 100%;
+
     }
     .save{
         padding: 10px 15px;
+    }
+    .save .top-text{
+        margin: 0;
+        font-size: 7px;
+    }
+    .save .bottom-text{
+        margin: 5px;
+        font-size: 12px;
     }
     .footer-container{
         box-sizing: border-box;
         text-align: center;
         padding: 10px 20px;
-        
-    
     }
     .footer-icon{
         margin: 30px 0px;
