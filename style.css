@@ -185,10 +185,97 @@ body{
     height: 300px;
     /* background: #220164; */
 }
-
-
-
-
+.testimonial{
+    margin-top: 60px;
+}
+.testimonial-top{
+    padding: 0px 200px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.cards{
+    width: 570px;
+    height: 280px;
+    box-sizing: border-box;
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card1{
+    background: rgba(251, 181, 99, 0.05)
+}
+.card2{
+    background: rgba(41, 206, 246, 0.05)
+}
+.card3{
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+}
+.video{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+.content-area{
+    box-sizing: border-box;
+    width: 50%;
+}
+.video-area{
+    width: 50%;
+}
+.newsletter{
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+}
+.news-left{
+    display: block;
+}
+hr{
+    /* width: 80%; */
+    text-align: left;
+}
+.subscribe{
+    width: 400px;
+}
+.subscribe > input{
+    display: block;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: #a9a9a937;
+}
+.news-btn{
+    width: 100%;
+    background: #880c0c;
+    color: #ffffff;
+    padding: 0px 20px;
+}
+.news-right{
+    position: relative;
+}
+.news-right > img{
+    width: 100%;
+}
+.save{
+    text-align: center;
+    padding: 15px 35px;
+    background-color: tomato;
+    position: absolute;
+    top: 50%;
+    left:40%;
+}
 
 
 
@@ -276,7 +363,30 @@ body{
         width: 100%;
     
     }
-
+    .card-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testimonial-top{
+        padding: 0px 40px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    .cards{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .video{
+        flex-direction: column;
+    }
+    .content-area{
+        box-sizing: border-box;
+        padding:15px;
+        width: 100%;
+    }
+    .video-area{
+        width: 100%;
+    }
 
 }
 
