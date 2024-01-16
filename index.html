@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Dreams</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -13,7 +17,7 @@
         <nav class=" navigation main-container">
             <div class="nav-left">
                 <img src="./Images/Group 40071 (2).png" alt="">
-                <h1>Travel<span>Dreams</span></h1>
+                <h1>Travel <span class="dream">Dreams</span></h1>
             </div>
             <div class="nav-right">
                 <a href="">Home</a>
@@ -21,6 +25,7 @@
                 <a href="">Testimonial</a>
                 <a href="">Blog</a>
                 <a href="">Contact</a>
+                <img src="./Images/Frame.svg" alt="">
             </div>
         </nav>
     </header>
@@ -32,9 +37,15 @@
             </div>
             <div class="banner-bottom">
                 <input type="text" name="" id="" placeholder="Where go">
-                <input type="text" name="" id="" placeholder="When">
-                <input type="text" name="" id="" placeholder="Select Type">
-                <input type="btn banner-btn" value="" placeholder="Find Now">
+                <select name="" id="">
+                    <option value="">When</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Select Type</option>
+                </select>
+                <!-- <input type="text" name="" id="" placeholder="When"> -->
+                <!-- <input type="text" name="" id="" placeholder="Select Type"> -->
+                <input class="banner-btn" type="btn" value="" placeholder="Find Now">
             </div>
         </div>
     </section>
@@ -43,12 +54,15 @@
             <div class="info-container">
                 <div class="info-left">
                     <h2 class="info-heading">Our Popular Tours</h2>
-                    <p class="info-des des1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ipsum repudiandae quam quas ea qui error. Eveniet, ratione?</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa ex deleniti!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa ex deleniti!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa ex deleniti!</li>
-                    </ul>
+                    <p class="info-des des1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ipsum repudiandae quam quas ea qui error. Eveniet, ratione?
+
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa ex deleniti!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa ex deleniti!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa ex deleniti!</li>
+                        </ul>
+                    </p>
+                            
                     <p class="info-des des2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ipsum repudiandae quam quas ea qui error. Eveniet, ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quas ut ipsum laudantium placeat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non obcaecati doloremque exercitationem rem eveniet eum, alias autem iure dicta est.</p>
                     <button class="info-btn btn-primary">Read More</button>
                 </div>
@@ -134,10 +148,10 @@
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima provident unde ad quibusdata repellat.</li>
                 </ul>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id nulla ab, laudantium repellendus soluta repellat sunt pariatur!</p>
-                <button class="btn-primary">See More</button>
+                <button class="video-btn btn-primary">See More</button>
             </div>
             <div class="video-area">
-                <video controls autoplay muted width="100%" src="./Images/video.mp4"></video>
+                <video controls autoplay muted loop width="100%" height="500px" src="./Images/video.mp4"></video>
             </div>
         </div>
     </section>
@@ -170,7 +184,7 @@
         <div class="footer-container main-container">
             <div class="footer-logo">
                 <img src="./Images/Group 40071 (2).png" alt="">
-                <h2 class="footer-heading">Travel Dreams</h2>
+                <h2 class="footer-heading">Travel <span class="dream">Dreams</span></h2>
             </div>
             <p class="footer-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus impedit architecto odio illum quo eos itaque, culpa, quidem dolor, quod delectus assumenda!</p>
             <div class="footer-icon">

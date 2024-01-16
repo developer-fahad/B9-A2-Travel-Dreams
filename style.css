@@ -1,38 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: "Mulish", sans-serif;
+}
+h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
 }
 
 .main-container{
     max-width: 1170px;
     margin: 0 auto;
-    border: 1px solid aquamarine;
 
 }
 .btn-primary{
+    color: #FFF;
+    border-radius: 8px;
     background: #FF5400;
-    padding: 15px 25px ;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
     border: 0;
-    border-radius: 7px;
+    padding: 11px 19px;
 }
 .navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 60px;
+    height: 60px;
 }
 .nav-left{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.nav-left h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.dream{
+    color: #FF5400;
+}
 .nav-right a{
     text-decoration: none;
     margin-left: 45px;
+    color: #424247;
+}
+.nav-right img{
+    display: none;
+}
+.nav-right a:nth-child(1){
+    color: #FF5400;
 }
 .banner{
     height: 500px;
@@ -42,7 +74,7 @@ body{
     background-position: center;
 }
 .banner-top{
-    margin-top: 150px;
+    /* margin-top: 10px; */
     text-align: center;
 }
 .banner-heading{
@@ -50,6 +82,7 @@ body{
     margin-bottom: 15px;
     font-family: Mulish;
     font-size: 64px;
+    padding-top: 100px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -74,17 +107,24 @@ body{
     /* opacity: 0.5; */
     border-radius: 7px;
 }
-.banner-bottom > input{
+.banner-bottom > input, select{
     border: 0;
+    /* width: 100px; */
     outline: none;
     padding: 15px 25px;
     border-radius: 8px;
     background-color: #ffffff;
-    color: red;
-    z-index: 10;
 }
-.banner-bottom > input > .banner-btn{
-    background-color: #FF5400; !important
+
+.banner-bottom .banner-btn{
+    background-color: #FF5400;
+    color: white;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+.banner-btn::placeholder{
+    color: white;
 }
 .info-container{
     height: 550px;
@@ -94,6 +134,9 @@ body{
     justify-content: stretch;
     gap: 50px;
     justify-content: space-between;
+}
+.info-left{
+    box-sizing: border-box;
 }
 .info-heading{
     margin-top: 0;
@@ -105,7 +148,8 @@ body{
     line-height: normal;
 }
 .info-left ul{
-    margin-top: 55px;
+    margin-top: 30px;
+    padding-left: 60px;
 }
 .info-des, ul li{
     color: rgba(19, 19, 24, 0.70);
@@ -115,8 +159,11 @@ body{
     font-weight: 400;
     line-height: 26px;
 }
-.des1, .des2{
-    margin-top: 64px;
+.info-btn{
+    margin-top: 55px;
+}
+.des2{
+    margin-top: 30px;
 }
 .places{
     margin-top: 60px;
@@ -131,6 +178,16 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+
+}
+.img-container h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
 .img-box{
@@ -188,6 +245,14 @@ body{
 .testimonial{
     margin-top: 60px;
 }
+.testimonial h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 .testimonial-top{
     padding: 0px 200px;
     padding-bottom: 35px;
@@ -201,10 +266,25 @@ body{
 }
 .cards{
     width: 570px;
-    height: 280px;
+    /* height: 280px; */
     box-sizing: border-box;
     padding: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cards img{
+    margin-top: 15px;
+}
+.cards h2{
+    margin-top: 15px;
+}
+.cards p{
+    margin-top: 15px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 .card1{
     background: rgba(251, 181, 99, 0.05)
@@ -227,8 +307,38 @@ body{
     box-sizing: border-box;
     width: 50%;
 }
+.content-area p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.content-area ul{
+    color: #131318;
+    padding-left: 60px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    margin-top: 20px;
+}
+.content-area .video-btn{
+    margin-top: 20px;
+}
+.content-area{
+    box-sizing: border-box;
+    width: 50%;
+}
 .video-area{
     width: 50%;
+}
+.video-area video{
+    width: 100%;
+    
 }
 .newsletter{
     margin-top: 60px;
@@ -239,6 +349,7 @@ body{
 .newsletter-content{
     width: 50%;
     box-sizing: border-box;
+    padding: 30px;
 }
 .newsletter-content .content-heading{
     margin-top: 0px;
@@ -255,14 +366,21 @@ body{
     background: rgba(223, 223, 223, 0.668);
     border-radius: 21px;
 }
+/* .newsletter-content input::placeholder{
+    padding-left: 35px;
+    margin-left: 35px;
+} */
 .newsletter-content .newsletter-btn{
     width: 100%;
     margin-top: 15px;
     border: 0;
     border-radius: 21px;
     height: 45px;
-    background: rgb(255, 85, 23);
     color: #ffffff;
+    background: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
 }
 .input-style{
     
@@ -343,18 +461,40 @@ body{
 
 /* style for Mobile devices */
 @media screen and (max-width: 600px) {
-    .banner-top{
-        margin-top: 80px;
+    .nav-left h1{
+        font-family: Mulish;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .nav-right a{
+        display: none;
+    }
+    .nav-right img{
+        display: block;
+        
+
+    }
+    nav{
+        padding: 0 30px;
     }
     .banner-heading{
-        margin-bottom: 15px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 800;
+        padding: 40px 0 20px 0;
     }
+    .banner-top > h1{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
     .banner-des{
         color: #FFF;
         padding: 0 30px;
+        padding-bottom: 20px;
         text-align: center;
         font-family: Mulish;
         font-size: 14px;
@@ -368,12 +508,23 @@ body{
         padding: 10px 20px;
         align-items: center;
     }
-    .banner-bottom > input{
+    .banner-bottom > input, select{
         display: block;
         margin: 5px;
         /* margin-top: 40px; */
         /* max-width: 100%; */
         /* padding: 0 20px; */
+    }
+    .banner-bottom > input{
+        width: 76%;
+    }
+    .banner-bottom select{
+        display: block;
+        width: 95%;
+    }
+    .banner-btn{
+        text-align: center;
+        background: #000;
     }
     .info-container{
         flex-direction: column;
@@ -488,6 +639,13 @@ body{
         box-sizing: border-box;
         text-align: center;
         padding: 10px 20px;
+    }
+    .footer-logo h2{
+        font-family: Mulish;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
     }
     .footer-icon{
         margin: 30px 0px;
