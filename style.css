@@ -299,6 +299,116 @@ h2{
     background: rgba(233, 68, 68, 0.05);
     margin: 0 auto;
 }
+.bonus{
+    margin-top: 60px;
+}
+.bonus-content{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 200px;
+}
+.bonus-content h2{
+    margin-bottom: 15px;
+}
+.bonus-btn{
+    margin-top: 60px;
+    text-align: center;
+}
+.discount-container1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(./Images/Group\ 39.png);
+}
+.deals1{
+    position: absolute;
+    width: 550px;
+    height: 400PX;
+    background: #ffffffd1;
+    top: 10%;
+    left: 48%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 11px;
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.top-content i{
+    color: #FF5400;
+    margin-right: 7px;
+}
+.middle-content{
+    margin-top: 25px;
+}
+.middle-content h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.middle-content p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 21px 0;
+}
+.middle-content h4{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 17px 0;
+}
+.middle-content button{
+    margin-top: 20px;
+}
+.discount-container2{
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    background-image: url(./Images/Group\ 40.png);
+}
+.deals2{
+    position: absolute;
+    width: 550px;
+    height: 400PX;
+    background: #ffffffd1;
+    top: 10%;
+    left: 5%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 11px;
+}
+.discount-container3{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    height: 500px;
+    background-image: url(./Images/Group\ 39.png);
+}
+.deals3{
+    position: absolute;
+    width: 550px;
+    height: 400PX;
+    background: #ffffffd1;
+    top: 10%;
+    left: 48%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 11px;
+}
+    
 .video{
     margin-top: 60px;
     display: flex;
@@ -343,6 +453,8 @@ h2{
     width: 100%;
     
 }
+
+
 .newsletter{
     margin-top: 60px;
     display: flex;
@@ -607,6 +719,122 @@ h2{
         width: 100%;
         border-radius: 15px;
     }
+    .bonus-content{
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0 30px;
+    }
+    .bonus-content h2{
+        margin-bottom: 15px;
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .discount-container1{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-image: url(./Images/Group\ 39.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .deals1{
+        position: absolute;
+        max-width: 400px;
+        height: 300PX;
+        background: #ffffffd1;
+        top: 35%;
+        left: 0;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 11px;
+    }
+    .top-content{
+        display: flex;
+        justify-content: flex-start;
+        gap: 19px;
+        font-size: 14px;
+    }
+    .top-content i{
+        color: #FF5400;
+        margin-right: 3px;
+    }
+    .middle-content{
+        margin-top: 10px;
+    }
+    .middle-content h3{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .middle-content p{
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        width: 300px;
+        padding: 5px 5px;
+    }
+    .middle-content h4{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding: 7px 0;
+    }
+    .middle-content button{
+        margin-top: 20px;
+    }
+    .discount-container2{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-image: url(./Images/Group\ 39.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .deals2{
+        position: absolute;
+        max-width: 400px;
+        height: 300PX;
+        background: #ffffffd1;
+        top: 35%;
+        left: 0;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 11px;
+    }
+    .discount-container3{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-image: url(./Images/Group\ 39.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .deals3{
+        position: absolute;
+        max-width: 400px;
+        height: 300PX;
+        background: #ffffffd1;
+        top: 35%;
+        left: 0;
+        box-sizing: border-box;
+        padding:10px;
+        border-radius: 11px;
+    }
+
     .video{
         flex-direction: column;
     }
