@@ -169,7 +169,7 @@ h2{
     margin-top: 30px;
 }
 .places{
-    margin-top: 60px;
+    margin-top: 200px;
 }
 .place-content{
     padding: 0px 200px;
@@ -303,7 +303,7 @@ h2{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     gap: 30px;
 }
 .content-area{
@@ -577,10 +577,14 @@ h2{
     .info-left ul, .des1, .des2{
         margin-top: 10px;
     }
+    .places{
+        margin-top: 60px;
+    }
     .place-content{
         padding: 0px 20px;
         padding-bottom: 15px;
         text-align: center;
+        
     }
     .img-container{
         flex-direction: column;
