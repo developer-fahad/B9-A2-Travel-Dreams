@@ -234,13 +234,10 @@ body{
     margin-top: 60px;
     display: flex;
     gap: 80px;
+    justify-content: space-between;
 }
 .news-left{
     display: block;
-}
-hr{
-    /* width: 80%; */
-    text-align: left;
 }
 .subscribe{
     width: 400px;
@@ -256,6 +253,9 @@ hr{
     border-radius: 8px;
     background: #a9a9a937;
 }
+.input-style{
+    
+}
 .news-btn{
     width: 100%;
     background: #880c0c;
@@ -269,12 +269,63 @@ hr{
     width: 100%;
 }
 .save{
+    box-sizing: border-box;
     text-align: center;
-    padding: 15px 35px;
+    padding: 15px 45px;
     background-color: tomato;
     position: absolute;
-    top: 50%;
-    left:40%;
+    top: 59%;
+    left: 50%;
+    transform: rotate(-20deg);
+}
+.save .top-text{
+    margin: 0;
+    
+}
+.save .bottom-text{
+    margin: 5px;
+    font-size: 18px;
+}
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 60px;
+}
+.footer-container{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 40px 200px;
+    
+
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-icon{
+    margin: 50px 0px;
+}
+.footer-icon > a{
+    /* background: #d74040; */
+    ;
+    padding: 20px;
+    /* color: rgb(46, 46, 246); */
+    font-size: 48px;
+}
+.footer-icon .fb{
+    color: rgb(46, 46, 246);
+}
+.footer-icon .insta{
+    color: hotpink;
+}
+.footer-icon .twitter{
+    color: rgb(0, 183, 255);
+}
+.footer-icon .github{
+    color: #000;
+}
+.copyright{
+    margin-top: 50px;
 }
 
 
@@ -387,7 +438,29 @@ hr{
     .video-area{
         width: 100%;
     }
-
+    .newsletter{
+        flex-direction: column;
+    }
+    .save{
+        padding: 10px 15px;
+    }
+    .footer-container{
+        box-sizing: border-box;
+        text-align: center;
+        padding: 10px 20px;
+        
+    
+    }
+    .footer-icon{
+        margin: 30px 0px;
+    }
+    .footer-icon > a{
+        padding: 10px;
+        font-size: 32px;
+    }
+    .copyright{
+        margin-top: 30px;
+    }
 }
 
 
